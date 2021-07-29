@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-notion-cms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Lance Chen (https://lancechen.tw)",
   "license": "MIT",
   "dependencies": {
-    "notion-cms": "0.0.1"
+    "notion-cms": "0.0.2"
   },
   "devDependencies": {
     "jest": "^27.0.6"
