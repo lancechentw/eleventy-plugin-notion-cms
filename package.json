@@ -16,7 +16,7 @@
   "author": "Lance Chen (https://lancechen.tw)",
   "license": "MIT",
   "dependencies": {
-    "notion-cms": "0.0.3"
+    "notion-cms": "0.0.4"
   },
   "devDependencies": {
     "jest": "^27.0.6"

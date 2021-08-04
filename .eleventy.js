@@ -1,8 +1,8 @@
 const NotionCMS = require("notion-cms");
 const debug = require("debug")("EleventyPluginNotionCMS");
 
-module.exports = function(eleventyConfig, options = {}) {
-  const cms = new NotionCMS(options.notionToken);
+module.exports = function (eleventyConfig, options = {}) {
+  const cms = new NotionCMS(options.notionToken, options.mentionResolver);
 
   if (options.pages) {
     for (let dataName in options.pages) {
